@@ -1,0 +1,124 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+.intro{
+    display: none;
+    background-image: url(../images/mainBg.jpg);
+    background-size: cover;
+    background-position:center center;
+    height: 600px;
+    position: relative;
+}
+.child
+{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    font-family: 'Permanent Marker', cursive;
+    color:rgb(236, 175, 175)  ;
+    font-style: italic;
+}
+.welcome
+{
+    display: none;
+}
+.childI
+{
+    position: absolute;
+    bottom: 15%;
+    left: 60%;
+}
+.find{
+    position: relative;
+    left: 16%;
+    top: 0%;
+}
+.d{
+    background-color: rgba(236, 175, 175,.3);
+    border-radius: 10px;
+    font-family: "Helvetica Neue",Arial;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.data
+{
+    background-image: url(../images/1.png);
+    background-size: contain;
+    background-position:center center;
+}
+#row img 
+{
+    height: 200px !important;
+}
+#searchInp
+{
+    border: solid 4px rgba(236, 175, 175,.3);
+    color: rgb(235, 137, 137)  ;
+}
+#search
+{
+    background-color: rgba(236, 175, 175,.3) ;
+    color: rgb(27, 27, 26);
+    border: solid 4px rgba(236, 175, 175,.3);
+    transition: 2s;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+#search:hover
+{
+    background-color: white;
+    color: rgb(235, 137, 137)  ;
+}
+.recipes
+{
+    border: solid 10px rgba(236, 175, 175,.3);
+}
+.title
+{
+    color: rgb(235, 137, 137)  ;
+}
+
+.fa-li
+{
+    color: rgb(236, 175, 175);
+}
+#ingr img
+{
+    border: solid 10px rgba(236, 175, 175,.3);
+    
+}
+hr
+{
+    border: solid 5px rgba(236, 175, 175,.3);
+
+}
+#ingr
+{
+    display: none;
+}
+.card
+{
+    cursor: pointer;
+}
+@media (max-width:800px){
+    .child
+    {
+        position: absolute;
+        bottom: 20%;
+        left: 10%;
+    }
+    .find
+    {
+        position: relative;
+        top: 0%;
+        left: 20%;
+    }
+}
